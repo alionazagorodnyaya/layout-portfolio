@@ -3,10 +3,12 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+body {
+	background-color: rgba(255, 255, 255, 1);
+}
 .header {
 	display: flex;
 	justify-content: center;
-	background-color: white;
 }
 .header__wrapper {
 	width: 100%;
@@ -15,7 +17,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.header__logo {
+.header__navigation > img {
 	margin-right: 60px;
 }
 .header__navigation {
@@ -37,9 +39,247 @@
 }
 .header__menu > img {
 	width: 50%;
-	height: 50%;
 }
 .header__menu {
 	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.profile__logo > img {
+	width: 535px;
+	height: 622px;
+}
+.first-page__info {
+	width: 358px;
+	height: 110px;
+	line-height: 50px;
+	margin-bottom: 150px;
+	padding-bottom: 228px;
+}
+.first-page__info > h1 {
+	font-size: 50px;
+}
+.first__page {
+	display: flex;
+	justify-content: center;
+}
+.first-page__wrapper {
+	width: 100%;
+	max-width: 1110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.first-page__button {
+	background-color: rgba(134, 67, 220, 1);
+	border-radius: 100px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	width: 200px;
+	height: 60px;
+	margin-top: 20px;
+	line-height: 50px;
+}
+.services {
+	display: flex;
+	justify-content: center;
+}
+.services__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	max-width: 1110px;
+}
+.services__info > h2 {
+	font-size: 36px;
+	padding-bottom: 50px;
+}
+.services__info > p {
+	color: rgba(134, 67, 220, 1);
+	padding-bottom: 27px;
+}
+.ux-research {
+	display: flex;
+
+	align-items: center;
+	width: 30%;
+	flex-wrap: wrap;
+}
+.ux-research__title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ux-research__info {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.ux-research > img {
+	width: 62px;
+	height: 60.59px;
+	margin: 15px;
+}
+.brand-design {
+	display: flex;
+
+	align-items: center;
+	width: 30%;
+	flex-wrap: wrap;
+}
+.brand-design__title {
+	display: flex;
+	justify-content: space-between;
+}
+.brand-design__info {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.brand-design > img {
+	width: 62px;
+	height: 60.59px;
+}
+
+.web-development {
+	display: flex;
+
+	align-items: center;
+	width: 30%;
+	flex-wrap: wrap;
+}
+.web-development__title {
+	display: flex;
+	justify-content: space-between;
+}
+.web-development__info {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.web-development > img {
+	width: 62px;
+	height: 60.59px;
+}
+
+.portfolio {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+.portfolio__wrapper {
+	width: 100%;
+	max-width: 1100px;
+}
+
+.portfolio__info {
+	display: flex;
+	justify-content: space-between;
+}
+.portfolio__info > h2 {
+	font-size: 36px;
+	padding-bottom: 50px;
+}
+.portfolio__images {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.portfolio__title {
+	display: flex;
+	padding-bottom: 27px;
+	color: rgba(134, 67, 220, 1);
+}
+.portfolio__images > img {
+	width: 540px;
+	height: 427px;
+}
+.clients {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.clients__info {
+	width: 100%;
+	max-width: 1100px;
+}
+
+.client__wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	max-width: 1100px;
+}
+
+.clients__info > h2 {
+	font-size: 36px;
+	padding-bottom: 50px;
+}
+.clients__info > p {
+	color: rgba(134, 67, 220, 1);
+	padding-bottom: 27px;
+}
+.slack__info {
+	padding-top: 10px;
+	border: 1px solid rgba(255, 231, 240, 1);
+	background-color: rgba(255, 246, 250, 1);
+	width: 170px;
+	height: 170px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.medium__info {
+	padding-top: 10px;
+	border: 1px solid rgba(202, 255, 225, 1);
+	background-color: rgba(237, 255, 245, 1);
+	width: 170px;
+	height: 170px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.microsoft__info {
+	padding-top: 10px;
+	border: 1px solid rgba(221, 245, 255, 1);
+	background-color: rgba(245, 252, 255, 1);
+	width: 170px;
+	height: 170px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.zeplin__info {
+	padding-top: 10px;
+	border: 1px solid rgba(255, 238, 201, 1);
+	background-color: rgba(255, 251, 242, 1);
+	width: 170px;
+	height: 170px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.shopify__info {
+	padding-top: 10px;
+	border: 1px solid rgba(219, 255, 195, 1);
+	background-color: rgba(244, 255, 237, 1);
+	height: 170px;
+	width: 170px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
 }
