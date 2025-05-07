@@ -283,3 +283,41 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.blog {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+
+.blog__wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.blog__info {
+	width: 1100px;
+}
+.blog__text > p {
+	color: rgba(134, 67, 220, 1);
+	padding-bottom: 27px;
+}
+.blog__text > h2 {
+	font-size: 36px;
+}
+.blog__content > p {
+	color: rgba(134, 67, 220, 1);
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.blog__content > h2 {
+	font-size: 20px;
+}
+.text {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	color: rgba(255, 255, 255, 1);
+}
+.blog__content {
+	position: relative;
+}
